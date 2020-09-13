@@ -18,3 +18,7 @@ peak magnitude from FFT (Fast Fourier Transform) spectrum and spectral features 
 
 Feature selection was performed using Pearson correlation coefficient and Recursive Feature Elimination Support Vector Machine (RFE-SVM), where only significant (top ranked 
 or highly correlated features) were selected and given as input to the Machine Learning models for **Regression**.
+
+## Machine Learning Predictions
+
+The accuracy of the predictions obtained from different supervised ML algorithms were evaluated with performance metrics Mean Absolute Error, maximum error, R^2 etc.. The predictions obtained were very precise, which demonstrates the use of ML to predict and monitor the quality of hydaulic valves, contributing to more sustainable manufacturing.

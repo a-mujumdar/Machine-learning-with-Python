@@ -3,7 +3,7 @@
 In order to predict the geometrical and dimensional quality charactersictics such as diameter and concentricity of machined workpieces, Supervised Machine Learning methods such as 
 Random Forest, Artificial Neural Network (ANN) etc.. were implemented.
 
-![Architecture of the system](https://octodex.github.com/images/yaktocat.png)
+![Architecture of the system](https://github.com/a-mujumdar/Machine-learning-with-Python/blob/master/Plots/architecture.PNG)
 
 ## Data acquisition
 
@@ -17,4 +17,4 @@ features is recommended. I extracted time-domain features such as mean, standard
 peak magnitude from FFT (Fast Fourier Transform) spectrum and spectral features such as mean band power, variance of band power using Power Spectral Density (PSD) by Welch method.
 
 Feature selection was performed using Pearson correlation coefficient and Recursive Feature Elimination Support Vector Machine (RFE-SVM), where only significant (top ranked 
-or highly correlated features) were selected and given as input to the Machine Learning models for *Regression*.
+or highly correlated features) were selected and given as input to the Machine Learning models for **Regression**.
